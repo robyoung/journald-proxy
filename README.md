@@ -30,3 +30,5 @@ EnvironmentFile=-/etc/sysconfig/my-service
 WantedBy=multi-user.target
 ```
 
+## Building
+Just run make to use Docker to build the journald-proxy.  The resulting binary will be copied to the current directory.
